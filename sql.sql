@@ -1,0 +1,3 @@
+ALTER TABLE `users` ADD COLUMN `xp` int(1) NOT NULL DEFAULT '0';
+ALTER TABLE `users` ADD COLUMN `level` int(1) NOT NULL DEFAULT '0';
+ALTER TABLE `users` ADD COLUMN `xpcoins` int(1) NOT NULL DEFAULT '0';

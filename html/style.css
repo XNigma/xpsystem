@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+  	-khtml-user-drag: none;
+  	-moz-user-drag: none;
+  	-o-user-drag: none;
+}
+
+#box {
+	position: absolute;
+	width: 1300px;
+	height: 800px;
+	overflow: hidden;
+	top: 20%;
+	left: 15%;
+	background-color: rgba(0, 0, 0, 0.548);
+	border-radius: 4%;
+}
+
+#title {
+	position: absolute;
+	font-size: 100px;
+	top: 10px;
+	left: 450px;
+	color: rgb(102, 255, 0);
+}
+
+#xp {
+	position: absolute;
+	font-size: 25px;
+	color: red;
+	top: 130px;
+	left: 450px;
+}
+
+#level {
+	position: absolute;
+	font-size: 25px;
+	color: red;
+	top: 130px;
+	left: 550px;
+}
+
+#xpcoins {
+	position: absolute;
+	font-size: 25px;
+	color: red;
+	top: 130px;
+	left: 670px;
+}
+
+#secondbox {
+	position: absolute;
+	width: 1200px;
+	height: 600px;
+	top: 22%;
+	left: 3.9%;
+	background-color: rgba(221, 221, 221, 0.548);
+	border-radius: 2%;
+}
+
+#itembox {
+	position: absolute;
+	background-color: rgba(0, 0, 255, 0.336);
+	border-radius: 2%;
+}
